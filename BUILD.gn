@@ -14,15 +14,15 @@
 import("//build/ohos.gni")
 
 ohos_cargo_crate("lib") {
-    crate_name = "cexpr"
-    crate_type = "rlib"
-    crate_root = "src/lib.rs"
+  crate_name = "cexpr"
+  crate_type = "rlib"
+  crate_root = "src/lib.rs"
 
-    sources = ["src/lib.rs"]
-    edition = "2018"
-    cargo_pkg_version = "0.5.0"
-    cargo_pkg_authors = "Jethro Beekman <jethro@jbeekman.nl>"
-    cargo_pkg_name = "cexpr"
-    cargo_pkg_description = "A C expression parser and evaluator"
-    deps = ["//third_party/rust/crates/nom:lib"]
+  sources = ["src/lib.rs"]
+  edition = "2018"
+  cargo_pkg_version = "0.6.0"
+  cargo_pkg_authors = "Jethro Beekman <jethro@jbeekman.nl>"
+  cargo_pkg_name = "cexpr"
+  cargo_pkg_description = "A C expression parser and evaluator"
+  deps = ["//third_party/rust/crates/nom:lib"]
 }
