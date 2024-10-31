@@ -3,7 +3,7 @@
     "Name": "rust-cexpr",
     "License": "Apache License 2.0, MIT",
     "License File": "LICENSE-APACHE|LICENSE-MIT",
-    "Version Number": "v0.6.0",
+    "Version Number": "0.6.0",
     "Owner": "xuelei3@huawei.com",
     "Upstream URL": "https://github.com/jethrogb/rust-cexpr",
     "Description": "A library that provides support for evaluating simple constant expressions at compile time."
