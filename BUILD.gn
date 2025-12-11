@@ -25,4 +25,7 @@ ohos_cargo_crate("lib") {
   cargo_pkg_name = "cexpr"
   cargo_pkg_description = "A C expression parser and evaluator"
   deps = [ "//third_party/rust/crates/nom:lib" ]
+  module_output_extension = ".rlib"
+  part_name = "rust_rust_cexpr"
+  subsystem_name = "thirdparty"
 }
